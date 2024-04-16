@@ -1,0 +1,26 @@
+body {
+    background-color: #C6D99C;
+}
+
+h1 {
+    background-color: #F2522E;
+    color: white;
+}
+
+nav {
+
+    display: flex;
+    justify-content: flex-end;
+    background-color: #F2B816;
+    margin: 1% 0 1% 0;
+}
+
+li {
+    display: inline;
+
+}
+
+.cubierta {
+    width: 100vw;
+    height: 100vh;
+}
