@@ -2,6 +2,15 @@ body {
     background-color: #C6D99C;
 }
 
+#c01 {
+    background-image: url("../Img/c01.jpeg");
+    height: 100vh;
+}
+
+#c02 {
+    background-image: url("../Img/c02.jpeg");
+}
+
 h1,
 h2 {
     font-size: 3em;
