@@ -2,10 +2,7 @@
     background: url("../Img/c01.jpeg");
     background-size: cover;
     background-position: 50% 50%;
-
-
 }
-
 
 
 #c02 {
@@ -17,7 +14,6 @@
 h1,
 h2 {
     font-size: 3em;
-
     background-color: #F2522E;
     color: white;
 }
@@ -29,8 +25,13 @@ h2 {
 nav {
 
     display: flex;
+    position: static;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 510px;
     justify-content: flex-end;
-    background-color: #F2B816;
+    background-color: #244f61;
     margin: 1% 0 1% 0;
 }
 
@@ -60,4 +61,23 @@ li {
     background-color: #41AED9;
     color: white;
     font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+
+    color: blue;
+}
+
+a:visited {
+
+    color: #97c5d8;
 }
