@@ -2,9 +2,16 @@ body {
     background-color: #C6D99C;
 }
 
-h1 {
+h1,
+h2 {
+    font-size: 3em;
+
     background-color: #F2522E;
     color: white;
+}
+
+h2 {
+    font-size: 2.5em;
 }
 
 nav {
@@ -23,4 +30,22 @@ li {
 .cubierta {
     width: 100vw;
     height: 100vh;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menuitemimg {
+    display: block;
+    width: 200px;
+    height: 300px;
+}
+
+.menuitemdesc {
+    background-color: #41AED9;
+    color: white;
+    font-weight: bold;
 }
