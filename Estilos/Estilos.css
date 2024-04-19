@@ -1,79 +1,37 @@
-#c01 {
-    background: url("../Img/c01.jpeg");
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-
-#c02 {
-    background: url("../Img/c02.jpeg");
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-h1 {
-    background: url("../Img/banq.png");
-    background-size: cover;
-    background-position: center;
-    height: 20vh;
-    color: white;
-    padding-left: 5%;
-    padding-top: 1.5%;
-}
-
-h2 {
-    font-size: 3em;
-    background-color: #F2522E;
-    color: white;
+body {
+    background-color: #359dd9;
 }
 
 nav {
-
-    display: flex;
-    justify-content: flex-end;
-    background-color: #244f61;
-    margin: 1% 0 1% 0;
+    background-color: #1e6187;
 }
 
-li {
+ul li {
     display: inline;
-
 }
 
-.cubierta {
-    width: 100vw;
-    height: 100vh;
-}
-
-.menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.menuitemimg {
-    display: block;
-    width: 200px;
-    height: 300px;
-}
-
-.menuitemdesc {
-    background-color: #41AED9;
-    color: white;
-    font-weight: bold;
-}
-
-a {
-    text-decoration: none;
-    font-weight: bold;
+h1 {
+    color: #000344
 }
 
 a:link,
 a:visited {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    text-decoration: none;
     color: white;
 }
 
 a:hover {
+    color: #a29600;
+    font-size: 1.5em;
 
-    color: #97c5d8;
+}
+
+p {
+    color: white;
+}
+
+footer {
+    background-color: #1e6187;
 }
