@@ -3,7 +3,10 @@ body {
 }
 
 nav {
+    display: flex;
     background-color: #1e6187;
+    height: 10vh;
+    align-items: center;
 }
 
 ul li {
@@ -20,6 +23,7 @@ a:visited {
     -webkit-text-stroke-color: black;
     text-decoration: none;
     color: white;
+    font-size: 1em;
 }
 
 a:hover {
