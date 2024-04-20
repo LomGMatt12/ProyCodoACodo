@@ -28,6 +28,7 @@ ul li {
 }
 
 h1 {
+    margin-left: 4vw;
     font-size: 3em;
     color: #000344
 }
@@ -49,6 +50,7 @@ a:hover {
 }
 
 p {
+    margin-left: 4vw;
     color: white;
     font-size: 2em;
     margin-top: 0;
