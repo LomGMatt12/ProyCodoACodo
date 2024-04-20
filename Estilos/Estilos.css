@@ -1,8 +1,18 @@
 body {
     background-color: #359dd9;
+    background-image: url("../Img/Moe.png");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-attachment: fixed;
+    background-position: right bottom;
+
 }
 
 nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
     display: flex;
     background-color: #1e6187;
     height: 10vh;
@@ -14,6 +24,7 @@ ul li {
 }
 
 h1 {
+
     color: #000344
 }
 
@@ -24,11 +35,12 @@ a:visited {
     text-decoration: none;
     color: white;
     font-size: 1em;
+    font-weight: bold;
 }
 
 a:hover {
-    color: #a29600;
-    font-size: 1.5em;
+    color: #ffeb00;
+    font-size: 1.2em;
 
 }
 
@@ -37,5 +49,14 @@ p {
 }
 
 footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 5vh;
+    z-index: -1;
+
+
     background-color: #1e6187;
 }
