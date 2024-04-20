@@ -48,11 +48,22 @@ a:hover {
     font-size: 2.2em;
 
 }
+.menu{
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-start;
+    unicode-bidi: isolate;
+}
+
+img{
+    height: 250px;
+    border-radius: 15px;
+    margin-left: 15px;
+}
 
 p {
-    margin-left: 4vw;
-    color: white;
-    font-size: 2em;
+    text-align: center;
+    color: white;    
     margin-top: 0;
     margin-bottom: 0;
 }
